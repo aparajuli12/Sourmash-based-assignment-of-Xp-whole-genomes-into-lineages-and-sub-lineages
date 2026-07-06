@@ -10,8 +10,6 @@ Using **Sourmash**, this workflow bypasses intensive alignment steps by utilizin
 
 * `ref_db.sbr.zip` - The compiled Sourmash SBT reference database containing signatures of classified Xp reference strains.
 * `classify_genomes_local.sh` - Universal Bash script for local machines (Mac/Linux).
-* `classify_genomes_hipergator.sh` - Slurm-optimized batch script for running on HiPerGator.
-
 ---
 
 ## Reference Database Specifications
