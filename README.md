@@ -40,3 +40,6 @@ If you are executing this on a local machine, utilize the universal script which
    ```bash
    conda create -n sourmash_env -c bioconda -c conda-forge sourmash
    conda activate sourmash_env
+
+2. **Run your script:**
+   bash classify_genomes_local.sh
