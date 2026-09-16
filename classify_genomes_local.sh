@@ -15,7 +15,7 @@ if ! command -v sourmash &> /dev/null; then
 fi
 
 # Set path to local reference database file
-ref_db="ref_db.sbr.zip"
+ref_db="ref_db.sbt.zip"
 input_dir="downloaded_fna"
 
 # Check if required components are present
