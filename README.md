@@ -14,9 +14,9 @@ Using **Sourmash**, this workflow bypasses intensive alignment steps by utilizin
 
 ## Reference Database Specifications
 
-The reference database (`ref_db.sbr.zip`) was generated from curated Xp reference genomes organized into **20 distinct classification groups** (18 sub-lineages within Group A, 2 within Group B, and an Unclassified group):
+The reference database (`ref_db.sbr.zip`) was generated from curated Xp reference genomes organized into **18 distinct classification groups** (15 sub-lineages within Group A, 2 within Group B, and an Unclassified group):
 
-* **Lineages:** `LineageA1` through `LineageA16`, `LineageB1`, `LineageB2`, and `Unclassified`.
+* **Lineages:** `LineageA1` through `LineageA15`, `LineageB1`, `LineageB2`,`UnclassifiedA`, 'Unclassified B'
 * **Parameters:** Sketched at $k=31$ with a scaling factor of 1000 (`scaled=1000`).
 * **Metadata:** Reference strains carry embedded metadata tags using the format `${strain_name}|${lineage_assignment}` (e.g., `StrainName|LineageA11`). This ensures that downstream search hits immediately reveal the precise lineage or sub-lineage assignment without manual lookup tables.
 
